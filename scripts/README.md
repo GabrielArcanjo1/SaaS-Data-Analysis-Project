@@ -5,3 +5,5 @@
 04_ranking_prejuizo.sql - Perdas financeiras por inadimplência. Este script utiliza funções de agregação (SUM) e agrupamento (GROUP BY) para consolidar o valor total de pagamentos falhos por cliente
 
 05_faturamento_mrr.sql – Cálculo do Monthly Recurring Revenue (MRR). Este script consolida a receita mensal prevista através da soma dos preços dos planos vinculados a assinaturas ativas ou em atraso (past_due).
+
+06_segmentacao_clientes.sql – Classificação de clientes por faixa de faturamento. Utilizo a estrutura condicional CASE WHEN para categorizar as empresas entre 'Premium' e 'Standard' com base no valor dos planos contratados, permitindo análises segmentadas de Marketing e Customer Success.
