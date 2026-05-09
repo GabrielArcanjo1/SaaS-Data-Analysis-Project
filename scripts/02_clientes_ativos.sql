@@ -1,3 +1,5 @@
+--Quais empresas são nossos clientes ativos hoje e qual o valor mensal que cada uma paga?
+
 SELECT C.company_name, C.industry, P.plan_name, S.Status
 FROM subscriptions S
 INNER JOIN plans P
